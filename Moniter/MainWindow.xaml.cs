@@ -28,7 +28,7 @@ namespace Moniter
         {
             DoubleAnimation blink = new DoubleAnimation
             {
-                From = 0.1,
+                From = 0.2,
                 To = 0.5,
                 Duration = TimeSpan.FromSeconds(0.5),
                 AutoReverse = true,
