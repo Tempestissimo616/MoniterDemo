@@ -1,0 +1,25 @@
+﻿<Window x:Class="Moniter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        Topmost="True"
+        WindowState="Maximized"
+        ShowInTaskbar="False"
+        Title="Moniter">
+
+    <Grid>
+        <!-- 顶部红条 -->
+        <Rectangle x:Name="TopBorder" Height="40" VerticalAlignment="Top" Fill="Red" Opacity="0.3"/>
+        <!-- 底部红条 -->
+        <Rectangle x:Name="BottomBorder" Height="40" VerticalAlignment="Bottom" Fill="Red" Opacity="0.3"/>
+        <!-- 左侧红条 -->
+        <Rectangle x:Name="LeftBorder" Width="40" HorizontalAlignment="Left" Fill="Red" Opacity="0.3"/>
+        <!-- 右侧红条 -->
+        <Rectangle x:Name="RightBorder" Width="40" HorizontalAlignment="Right" Fill="Red" Opacity="0.3"/>
+
+        <!-- 可选：掉落金币 Canvas -->
+        <Canvas x:Name="CoinCanvas" IsHitTestVisible="False"/>
+    </Grid>
+</Window>

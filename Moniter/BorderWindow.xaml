@@ -1,0 +1,9 @@
+﻿<Window x:Class="Moniter.BorderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BorderWindow" Height="300" Width="300"
+        WindowStyle="None"
+        Background="Transparent"
+        AllowsTransparency="True"
+        ShowInTaskbar="False"
+        Topmost="True" />
